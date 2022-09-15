@@ -1,0 +1,14 @@
+$coloresPrincipales:(
+	colorPrimario: #04202C,
+	colorTexto: #B3A381,
+);
+
+
+
+.container-fluid{
+	color:map-get($coloresPrincipales,colorPrimario);
+}
+
+h1, h2, p{
+	color:map-get($coloresPrincipales,colorTexto);
+}
